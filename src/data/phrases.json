@@ -1,0 +1,154 @@
+[
+  {
+    "id": "airport",
+    "icon": "✈︎",
+    "title": "空港・チェックイン",
+    "shortTitle": "空港",
+    "color": "#F2B84B",
+    "description": "搭乗前に必要なひとこと",
+    "phrases": [
+      { "ja": "チェックインをお願いします。", "en": "I'd like to check in for my flight.", "hint": "I’d like to で、丁寧に「〜したいです」。" },
+      { "ja": "通路側の席をお願いできますか？", "en": "Could I have an aisle seat?", "hint": "aisle は通路、window は窓側です。" },
+      { "ja": "搭乗ゲートはどこですか？", "en": "Where is the boarding gate?", "hint": "gate の番号も一緒に聞き取ろう。" }
+    ],
+    "dialogue": [
+      { "speaker": "Staff", "text": "Good morning. May I see your passport?" },
+      { "speaker": "You", "text": "Sure. I'd like to check in for my flight." },
+      { "speaker": "Staff", "text": "Of course. Would you like a window or an aisle seat?" }
+    ],
+    "quiz": { "question": "「通路側の席をお願いできますか？」は？", "options": ["Could I have an aisle seat?", "Where is the boarding gate?", "Can I check my luggage?"], "answer": 0 }
+  },
+  {
+    "id": "immigration",
+    "icon": "🛂",
+    "title": "入国審査",
+    "shortTitle": "入国審査",
+    "color": "#63C5B5",
+    "description": "落ち着いて目的を伝える",
+    "phrases": [
+      { "ja": "観光で来ました。", "en": "I'm here for sightseeing.", "hint": "sightseeing は「観光」。" },
+      { "ja": "5日間滞在します。", "en": "I'll be staying for five days.", "hint": "for + 期間 で滞在期間を伝えます。" },
+      { "ja": "このホテルに滞在します。", "en": "I'm staying at this hotel.", "hint": "予約確認を見せながら言うとスムーズです。" }
+    ],
+    "dialogue": [
+      { "speaker": "Officer", "text": "What is the purpose of your visit?" },
+      { "speaker": "You", "text": "I'm here for sightseeing." },
+      { "speaker": "Officer", "text": "How long will you be staying?" }
+    ],
+    "quiz": { "question": "「5日間滞在します。」は？", "options": ["I stay five days.", "I'll be staying for five days.", "I came five days."], "answer": 1 }
+  },
+  {
+    "id": "hotel",
+    "icon": "⌂",
+    "title": "ホテル",
+    "shortTitle": "ホテル",
+    "color": "#F58A72",
+    "description": "チェックインから困りごとまで",
+    "phrases": [
+      { "ja": "島端の名前で予約しています。", "en": "I have a reservation under Shimabata.", "hint": "under + 名前 は「〜の名前で」。" },
+      { "ja": "チェックアウトは何時ですか？", "en": "What time is check-out?", "hint": "check-in と check-out をセットで。" },
+      { "ja": "荷物を預かってもらえますか？", "en": "Could you keep my luggage?", "hint": "luggage は荷物全般を表します。" }
+    ],
+    "dialogue": [
+      { "speaker": "Staff", "text": "Welcome. How can I help you?" },
+      { "speaker": "You", "text": "I have a reservation under Shimabata." },
+      { "speaker": "Staff", "text": "Great. May I see your passport, please?" }
+    ],
+    "quiz": { "question": "予約名を伝える表現は？", "options": ["My reservation is Shimabata.", "I have a reservation under Shimabata.", "I reserve under Shimabata."], "answer": 1 }
+  },
+  {
+    "id": "restaurant",
+    "icon": "☕",
+    "title": "レストラン・カフェ",
+    "shortTitle": "食事",
+    "color": "#E05B4A",
+    "description": "注文を気軽に楽しむ",
+    "phrases": [
+      { "ja": "2人です。", "en": "Do you have a table for two?", "hint": "for two は「2人用の」。" },
+      { "ja": "おすすめは何ですか？", "en": "What do you recommend?", "hint": "メニューを見ながら使える便利な一言。" },
+      { "ja": "お会計をお願いします。", "en": "Could I have the bill, please?", "hint": "アメリカでは check とも言います。" }
+    ],
+    "dialogue": [
+      { "speaker": "Staff", "text": "Are you ready to order?" },
+      { "speaker": "You", "text": "Yes. What do you recommend?" },
+      { "speaker": "Staff", "text": "Our pasta is very popular." }
+    ],
+    "quiz": { "question": "「おすすめは何ですか？」は？", "options": ["What do you like?", "What do you recommend?", "What is popular you?"], "answer": 1 }
+  },
+  {
+    "id": "shopping",
+    "icon": "🛍",
+    "title": "買い物",
+    "shortTitle": "買い物",
+    "color": "#B679C7",
+    "description": "サイズや色を確認する",
+    "phrases": [
+      { "ja": "これはいくらですか？", "en": "How much is this?", "hint": "指さしながら言えば十分伝わります。" },
+      { "ja": "ほかの色はありますか？", "en": "Do you have this in another color?", "hint": "this を商品に向けて使います。" },
+      { "ja": "試着できますか？", "en": "Can I try this on?", "hint": "try on は服を試着すること。" }
+    ],
+    "dialogue": [
+      { "speaker": "You", "text": "Do you have this in another color?" },
+      { "speaker": "Staff", "text": "Yes, we have it in blue and black." },
+      { "speaker": "You", "text": "Can I try the blue one on?" }
+    ],
+    "quiz": { "question": "「試着できますか？」は？", "options": ["Can I try this on?", "Can I wear this?", "Can I buy this?"], "answer": 0 }
+  },
+  {
+    "id": "transport",
+    "icon": "🚇",
+    "title": "交通・道案内",
+    "shortTitle": "移動",
+    "color": "#4D91D2",
+    "description": "目的地まで迷わない",
+    "phrases": [
+      { "ja": "空港へ行きますか？", "en": "Does this train go to the airport?", "hint": "this train をバスに変えても使えます。" },
+      { "ja": "何番線ですか？", "en": "Which platform is it?", "hint": "platform は駅のホーム・番線です。" },
+      { "ja": "どのくらいかかりますか？", "en": "How long does it take?", "hint": "時間を聞く定番フレーズ。" }
+    ],
+    "dialogue": [
+      { "speaker": "You", "text": "Does this train go to the airport?" },
+      { "speaker": "Local", "text": "Yes, it does. It takes about 30 minutes." },
+      { "speaker": "You", "text": "Thank you very much." }
+    ],
+    "quiz": { "question": "所要時間を聞くのは？", "options": ["How far is it?", "How long does it take?", "When is it?"], "answer": 1 }
+  },
+  {
+    "id": "trouble",
+    "icon": "!",
+    "title": "トラブル",
+    "shortTitle": "トラブル",
+    "color": "#D84E5B",
+    "description": "いざという時に助けを呼ぶ",
+    "phrases": [
+      { "ja": "財布をなくしました。", "en": "I lost my wallet.", "hint": "lost は lose の過去形です。" },
+      { "ja": "助けが必要です。", "en": "I need help.", "hint": "短く、はっきり伝えるのが大切です。" },
+      { "ja": "タクシーを呼んでもらえますか？", "en": "Could you call a taxi for me?", "hint": "for me をつけるとお願いの意味が明確に。" }
+    ],
+    "dialogue": [
+      { "speaker": "You", "text": "Excuse me, I need help." },
+      { "speaker": "Staff", "text": "Of course. What happened?" },
+      { "speaker": "You", "text": "I lost my wallet." }
+    ],
+    "quiz": { "question": "「財布をなくしました。」は？", "options": ["I lose my wallet.", "My wallet is gone me.", "I lost my wallet."], "answer": 2 }
+  },
+  {
+    "id": "photo",
+    "icon": "◉",
+    "title": "写真を頼む",
+    "shortTitle": "写真",
+    "color": "#F09B3D",
+    "description": "思い出をきれいに残す",
+    "phrases": [
+      { "ja": "写真を撮っていただけますか？", "en": "Could you take a photo of me?", "hint": "of me は「私の写真を」。" },
+      { "ja": "もう一枚お願いできますか？", "en": "Could you take one more?", "hint": "one more だけでも通じます。" },
+      { "ja": "建物全体を入れてください。", "en": "Could you include the whole building?", "hint": "include は「〜を入れる」。" }
+    ],
+    "dialogue": [
+      { "speaker": "You", "text": "Excuse me, could you take a photo of me?" },
+      { "speaker": "Local", "text": "Sure! Landscape or portrait?" },
+      { "speaker": "You", "text": "Landscape, please. Thank you!" }
+    ],
+    "quiz": { "question": "「もう一枚お願いできますか？」は？", "options": ["Could you take one more?", "Could you make one more?", "Could you photo again?"], "answer": 0 }
+  }
+]
