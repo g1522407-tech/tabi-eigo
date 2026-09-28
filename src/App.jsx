@@ -1,5 +1,11 @@
 import { useMemo, useState } from 'react'
-import scenes from './data/phrases.json'
+import baseScenes from './data/phrases.json'
+import extraPhrases from './data/extraPhrases.json'
+
+const scenes = baseScenes.map((scene) => ({
+  ...scene,
+  phrases: [...scene.phrases, ...extraPhrases[scene.id]],
+}))
 
 const tabs = [
   { id: 'phrase', label: 'フレーズ', icon: '◫' },
